@@ -6,3 +6,5 @@ https://spending.gov.ua/new/
 https://prozorro.gov.ua/en
 
 https://dozorro.org/tools
+
+[Tenders](https://prozorro.gov.ua/)
