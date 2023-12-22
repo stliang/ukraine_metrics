@@ -10,7 +10,8 @@ date2 = '2018-02-01'
 
 mydates = pd.date_range(date1, date2).tolist()
 
-uri="https://public.api.openprocurement.org/api/0/tenders"
+#uri="https://public.api.openprocurement.org/api/0/tenders"
+uri="https://public.api.openprocurement.org/api/0/tenders/fd763950ebc14146aaaa168fd7a6c992"
 # uri="https://public.api.openprocurement.org/api/2.5/tenders?offset=1434981607.443577"
 # uri=f"https://public.api.openprocurement.org/api/0/tenders?offset={datetime.fromisoformat('2015-01-01T00:00:00+02:00').timestamp()}&descending=1&limit=10"
 response = requests.get(uri)
